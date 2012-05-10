@@ -1,0 +1,450 @@
+/* CSS Document */
+body
+	{
+		margin:0 auto;
+		padding:0;
+		background-image:url(/img/top_gradient.png)
+		color: #999999;
+		font-family: Helvetica,Arial,sans-serif;
+		font-size: 16px;
+	}
+h1 {
+    font-size: 2em;
+}
+a, a:link, a:visited, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:#6C95D1;
+    font-weight:normal;
+	margin:0;
+	padding:0;
+}	
+ol, ul {
+    list-style: none outside none;
+}
+#wrap {
+    background:url(/img/top_shadows.png) no-repeat;
+	background-image:url(webroot/img/top_shadows.png) no-repeat;
+    margin:auto;
+    width:947px;
+	position:relative;
+	z-index:2;
+    	}
+#header {
+	width:930px;
+	height:110px;
+	margin:auto;
+	background:url(images/header.png) no-repeat;
+}
+#logo {
+	width:181px;
+	padding:0px 0 0 9px;
+	float:left;
+	margin-top:35px;
+}
+	
+#nav { 
+	float: left;
+	margin:0;
+	padding:0;
+	width:485px;
+	height:108px;
+
+}
+#navTwo
+	{ 
+		float: right;
+		left: 256px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		top: -108px;
+		width: 261px;
+	}
+#navThree
+	{
+		float: right;
+		left: 256px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		top: -109px;
+		width: 261px;
+	}	
+#nav li, #navTwo li, #navThree li 
+	{
+	 float: left;
+	 margin:0;
+	 padding:0; 
+	}
+#nav a 
+	{
+		display: block;
+		float: left;
+		width: 160px;
+		height: 109px;
+		text-indent: -999em;
+	}
+#nav li a:hover, #nav li.navOn a 
+	{ 
+		background-position: left bottom; 
+	}
+#nav .nav-works	a	
+	{ 
+		background:url(images/nav_howitworks.png) no-repeat left top; 
+	}
+#nav .nav-rental a	
+	{ 
+		background:url(images/nav_rentalapplication.png) no-repeat left top; 
+	}
+#nav .nav-notice a	
+	{ 
+		background:url(images/nav_notice.png) no-repeat left top; 
+	}
+#nav .nav-lease	a	
+	{ 
+		background:url(images/nav_lease.png) no-repeat left top; 
+	}
+#navTwo a 
+	{
+		display: block;
+		float: left;
+		text-indent: -999em;
+		width: 130px; 
+		height: 57px;
+	}
+#navTwo li a:hover, #navTwo li.navOn a 
+	{ 
+		background-position: left bottom; 
+	}
+#navTwo .nav-store	a	
+	{ 
+		background:url(images/nav_attorney.png) no-repeat left top; 
+	}
+#navTwo .nav-contact a	
+	{ 
+		background: url(images/nav_contact.png) no-repeat left top; 
+	}
+
+#navThree li 
+	{ 
+		float: left;
+		list-style:none; 
+	}
+#navThree a 
+	{ 
+		float: left;
+		width: 130px;
+		height: 52px;
+		text-indent: -999em;
+	}
+#navThree li a:hover, #navThree li.navOn a  
+	{ 
+		background-position: left bottom;
+		list-style:none; 
+	}
+#navThree .nav-login a	
+	{ 
+		background:url(images/nav_login.png) no-repeat left top; 
+	}
+#navThree .nav-started a	
+	{ 
+		background:url(images/nav_getstarted.png) no-repeat left top; 
+	}
+#navThree .nav-logout a	
+	{ 
+		background:url(images/nav_logout.png) no-repeat left top; 
+	}
+#navThree .nav-myaccount a	
+	{	 
+		background:url(images/nav_myaccount.png) no-repeat left top; 
+	}
+#main {
+    background:url(images/main-pages.png) no-repeat scroll 0 99px white;
+    clear: both;
+    margin: 43px auto 0;
+    overflow: auto;
+    width: 930px;
+}
+#pageTitle {
+    background:url(images/pagetitle.jpg) no-repeat scroll left top;
+    height:120px;
+    width:930px;
+	margin-top:0px;
+	*margin-top:0px;
+}
+#pageLeft {
+    float: left;
+    padding:27px 32px;
+    width:229px;
+	margin-top:-21px;
+}
+#subNavWrap {
+    background:url(images/subnav_base.png) no-repeat;
+    padding: 9px 9px 0;
+    width: 238px;
+	*width:256px;
+	height:auto;
+}
+#subNav {
+    margin: 15px 0 43px;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#subNav li {
+    background: url(images/subnav_list.png) repeat scroll left center;
+    margin: 0;
+    padding: 0 13px;
+    width: 212px;
+}
+#subNav li a {
+    border-bottom: 1px dotted #DBDBDB;
+    color: #648AC3;
+    display: block;
+    font-size: 0.75em;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+	text-decoration:none;
+}
+#subNav li:hover a {
+	color: #505050;
+	cursor: pointer;
+	text-decoration: none;
+}
+#subNav li.working {
+    background: url(/images/subnav_list_hover.png) repeat left center;
+}
+#subNav li:hover {
+	background: url(images/subnav_list_hover.png) left center;
+}
+
+#subNavWrapBase {
+    background: url(images/subnav_base.png) no-repeat scroll;
+    height:16px;
+    margin:0 auto 35px;
+    width:256px;
+}
+#subNavWrap {
+    background: url(images/subnav_top.png) no-repeat scroll;
+    padding:25px 9px 0;
+    width:238px;
+}
+#pageRight {
+    float:left;
+    padding:33px 0px 33px 0;
+    width:596px;
+	min-height:250px;
+	height:auto;
+	margin-right:10px;
+	margin-left:28px;
+}
+#main-pages-base {
+    background: url(images/main-pages-base.png) no-repeat;
+    clear: both;
+    height: 11px;
+    margin: auto;
+    width: 930px;
+}
+#footerWrap {
+    background: url(images/bottom_shadow.png) no-repeat scroll center top;
+    height: 288px;
+    margin: -134px auto 0;
+    overflow: hidden;
+    width: 100%;
+}
+#footer {
+    background: url(images/footer.png) no-repeat scroll center top;
+    height: 60px;
+    margin: 180px auto 15px;
+    width: 930px;
+}
+.copyright {
+    color: #FFFFFF;
+    float: left;
+    margin: 14px 0 0 30px !important;
+}
+p {
+    font-size:0.75em;
+    line-height:130%;
+    margin:1em 0;
+	color:#999999;
+}
+#leaseInfo .infolabel, #applicationInfo .infolabel {
+    color: #808080;
+    width: 270px;
+}
+landlordwiz.css (line 465)
+#leaseInfo td, #applicationInfo td {
+    color: #333333;
+    padding-bottom: 10px;
+}
+#footer_nav {
+    float: right;
+    margin:11px 30px 0 0;
+    text-align:right;
+}
+#footer_nav li {
+    display:inline;
+    margin:0;
+    text-align:right;
+}
+#footer_nav li a {
+    border-right:1px solid white;
+    color: #FFFFFF;
+    font-size:0.75em;
+    margin:0 5px 0 0;
+    padding-right: 7px;
+    text-decoration: none;
+}
+#footer_nav li a:hover
+{
+	text-decoration:underline;	
+}
+.credit {
+    clear: both;
+    color: #666666;
+    float: right;
+    margin: 20px 30px 0 0;
+    text-align: right;
+    width: 600px;
+}
+.credit a {
+    color: #666666;
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+    font-size: 1px;
+    height: 1px;
+    line-height: 1px;
+}
+#pageTitle h2 {
+    color: #FFFFFF;
+    font-size: 1.875em;
+    line-height: 99px;
+    margin-right: 35px;
+    text-align: right;
+}
+.title
+	{
+		margin:0;
+		padding:0px;
+		background:#4c8ac9;
+		color:#FFFFFF;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:16px;
+		height:38px;
+		font-weight:bold;
+	}
+.tbl_info
+	{
+		margin:0;
+		padding:0;
+		background:#fbfbfb;
+		color:#666666;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:16px;
+		height:38px;
+	}
+.tbl_block		
+	{
+		margin:0;
+		padding:0;
+		border:#CCCCCC solid 1px;
+		width:500px;
+	}
+.left_bod
+	{
+		margin:0;
+		padding:0;
+		border-right:#CCCCCC solid 1px;
+		line-height:36px;
+		padding-left:9px;
+	}
+.submit_but
+	{
+		margin:0;
+		padding:0;
+	}				
+.blueEm {
+    color: #648AC3 !important;
+    font-size: 1.25em;
+	
+}
+/*button.buy {
+    background: url(images/button_blank_grey.png) no-repeat scroll left top transparent;
+    border: medium none;
+    color: #537AB8;
+    display: inline;
+    font-size: 11px;
+    font-weight: bold;
+    height: 22px;
+    margin-left: 10px;
+	width:87px;
+	}
+button.buy a { color: #537ab8; }
+button.buy:hover, button.buy:hover a:hover {
+	background-position: left bottom;
+	color: #676767;
+	text-decoration: none;
+	 cursor: pointer
+}*/
+button.buy {
+	background: url(images/button_blank_grey.png) no-repeat left top;
+	width: 87px;
+	height: 22px;
+	display: inline;
+	border: none;
+	margin-left: 10px;
+	color: #537ab8;
+	font-size: 11px;
+	font-weight: bold;
+}
+button.buy a { color: #537ab8; }
+button.buy:hover, button.buy:hover a:hover {
+	background-position: left bottom;
+	color: #676767;
+	text-decoration: none;
+	 cursor: pointer
+}
+.add_unit_but
+	{
+	   margin:0 auto; 
+	   margin-top:20px; 
+	   width:200px;
+	}
+.title_form
+	{
+		margin:0;
+		padding:0;
+		font-family:Arial, Helvetica, sans-serif;
+		color:#fff;
+		font-size:18px;
+		height:38px;
+		background:#6e91c7; 
+	}	
+.data
+	{
+		width:200px;  
+		height:35px; 
+		margin-right:10px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:16px;
+		color:#666666;
+	}
+#lbl
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:16px;
+		color:#666666;
+		margin-right:15px;
+		*width:300px;
+	}	
+.inp_box
+	{
+		/*margin-left:20px;*/
+	}		
